@@ -17,8 +17,8 @@ const Portfolio = () => {
           </div>
           <h3>Shopping Cart</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target='_blank'> Source Code</a>
-            <a href="https://gribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/pritibpatil/shopping-cart" className='btn' target='_blank'> Source Code</a>
+            <a href="https://priti-shopping-cart.netlify.app/products" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
