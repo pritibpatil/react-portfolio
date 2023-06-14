@@ -1,0 +1,56 @@
+.experience__container {
+    background: var(--color-bg-varient);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+
+.experience__container:hover {
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
+
+.experience__container h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+    text-align: center;
+}
+
+.experience__details{
+    display: flex;
+    gap:1rem;
+}
+
+.experience__details-icon{
+    margin-top: 6px;
+    color: var(--color-primary);   
+}
+
+/* *************Media Queries for MEDIUM DEVICES (tablets)*************** */
+@media screen and (max-width:1024px) {
+   .experience__container{
+    width: 80%;
+    padding: 2rem;
+    margin:0 auto;
+   }
+
+   .experience__content{
+    padding: 1rem;
+   }
+}
+ 
+ /* *************Media Queries for SMALL DEVICES (Mobiles)*************** */
+ @media screen and (max-width:600px) {
+    .experience__container{
+        gap: 1rem;
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
